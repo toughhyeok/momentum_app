@@ -1,0 +1,139 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+body img {
+    width: auto;
+    max-height: 100%;
+}
+
+#main {
+    position: absolute;
+    left: 50%;
+    margin-left: -40%;
+    width: 80%;
+    top: 46%;
+    margin-top: -130px;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    flex-direction: column;
+}
+
+#clock {
+    font-size: 48px;
+    margin: 0;
+    text-shadow:1px 1px 1px #000;
+    color: rgb(255, 228, 228);
+}
+
+#login-form input:first-child {
+    box-sizing: content-box;
+    width: 150px;
+    height: 20px;
+    padding: 10px 20px;
+    border: 0;
+    line-height: 20px !important;
+    font-size: 17px;
+    color: #fff;
+    background: rgba(0,0,0,1);
+    border-radius: 20px 0px 0 20px;
+    margin-bottom: 10px;
+}
+#login-form input:last-child {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px 12px;
+    border: 0;
+    font-size: 12px;
+    color: #fff;
+    background: rgba(0,0,0,1);
+    border-radius: 0 20px 20px 0;
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.loginBtn-toggle {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#greeting {
+    font-size: 80px;
+    color: #fff;
+    text-shadow:1px 1px 1px #000;
+}
+
+#todo-form input {
+    box-sizing: content-box;
+    width: 258.16px;
+    height: 20px;
+    padding: 10px 20px;
+    border: 0;
+    line-height: 20px !important;
+    font-size: 17px;
+    color: #fff;
+    background: rgba(0,0,0,1);
+    border-radius: 20px 0px 0 20px;
+    margin-bottom: 10px;
+}
+
+ul li{
+    list-style: none;
+    box-sizing: content-box;
+    width: 258.16px;
+    height: 20px;
+    padding: 10px 20px;
+    border: 0;
+    line-height: 20px !important;
+    font-size: 17px;
+    color: #fff;
+    background: rgba(0,0,0,1);
+    border-radius: 20px 0px 0 20px;
+    margin-bottom: 10px;
+}
+
+ul li span {
+    position: relative;
+    top: 0px;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 0;
+}
+
+ul li button {
+    display: flex;
+    float: right;
+    position: relative;
+    top: -5px;
+    border: 0;
+    background-color: rgba(0,0,0,1);
+    font-size: 20px;
+}
+
+#weather {
+    text-shadow:1px 1px 1px #000;
+    color: rgb(255, 228, 228);
+}
+
+#quote {
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    flex-direction: column;
+    text-shadow:1px 1px 1px #000;
+    color: rgb(255, 228, 228);
+}
+
+#quote span:last-child {
+    font-size: 15px;
+}
