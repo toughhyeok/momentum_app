@@ -2,4 +2,4 @@
 TO DO LIST
 
 This is my first webpage.
-Make a TO DO LiST!
+Make a TO DO LIST!
