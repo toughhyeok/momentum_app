@@ -29,7 +29,7 @@ body img {
     font-size: 48px;
     margin: 0;
     text-shadow:1px 1px 1px #000;
-    color: rgb(255, 228, 228);
+    color: #fff;
 }
 
 #login-form input:first-child {
@@ -142,7 +142,7 @@ ul li button {
 
 #weather {
     text-shadow:1px 1px 1px #000;
-    color: rgb(255, 228, 228);
+    color: #fff;
 }
 
 #quote {
@@ -153,7 +153,6 @@ ul li button {
     align-items: center;
     flex-direction: column;
     text-shadow:1px 1px 1px #000;
-    color: rgb(255, 228, 228);
 }
 
 #quote span:last-child {
